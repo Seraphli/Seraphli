@@ -11,13 +11,13 @@
 
 <a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=seraphli&column=6&row=1&margin-w=15&margin-h=15" alt="seraphli" /></a>
 
-<img style="float: left; width:50%;" src="https://github-readme-stats.vercel.app/api?username=seraphli&show_icons=true&locale=en" alt="seraphli" />
+<img  height="180em" src="https://github-readme-stats.vercel.app/api?username=seraphli&show_icons=true&locale=en" alt="seraphli" />
 
-<img style="float: left; width:50%;" src="https://github-readme-streak-stats.herokuapp.com/?user=seraphli&" alt="seraphli" />
+<img  height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=seraphli&" alt="seraphli" />
 
-<img style="float: left;  width:50%;" src="https://github-readme-stats.vercel.app/api/top-langs?username=seraphli&show_icons=true&locale=en&layout=compact" alt="seraphli" />
+<img  height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=seraphli&show_icons=true&locale=en&layout=compact" alt="seraphli" />
 
-<img style="float: left; width:50%;" src="https://github-readme-stats.vercel.app/api/wakatime?username=SErAphLi" alt="seraphli" />
+<img  height="180em" src="https://github-readme-stats.vercel.app/api/wakatime?username=SErAphLi" alt="seraphli" />
 
 
 ### Languages and Tools:
