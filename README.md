@@ -9,20 +9,15 @@
 
 &nbsp;
 
-<p style="float: left; width:40%;">
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=seraphli&column=1&row=6&margin-w=15&margin-h=15" alt="seraphli" /></a>
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img align="center" src="https://github-profile-trophy.vercel.app/?username=seraphli&column=6&row=6&margin-w=15&margin-h=15" alt="seraphli" /></a>
 
-<p style="float: left; width:60%;">
-<img style="width:100%;" src="https://github-readme-stats.vercel.app/api?username=seraphli&show_icons=true&locale=en" alt="seraphli" />
+<img style="float: left; width:50%;" src="https://github-readme-stats.vercel.app/api?username=seraphli&show_icons=true&locale=en" alt="seraphli" />
 
-<p style="float: left; width:60%;">
-<img style="width:100%;" src="https://github-readme-streak-stats.herokuapp.com/?user=seraphli&" alt="seraphli" />
+<img style="float: left; width:50%;" src="https://github-readme-streak-stats.herokuapp.com/?user=seraphli&" alt="seraphli" />
 
-<p style="float: left; width:60%;">
-<img style="width:100%;" src="https://github-readme-stats.vercel.app/api/top-langs?username=seraphli&show_icons=true&locale=en&layout=compact" alt="seraphli" />
+<img style="float: left;  width:50%;" src="https://github-readme-stats.vercel.app/api/top-langs?username=seraphli&show_icons=true&locale=en&layout=compact" alt="seraphli" />
 
-<p style="float: left; width:60%;">
-<img style="width:100%;" src="https://github-readme-stats.vercel.app/api/wakatime?username=SErAphLi" alt="seraphli" />
+<img style="float: left; width:50%;" src="https://github-readme-stats.vercel.app/api/wakatime?username=SErAphLi" alt="seraphli" />
 
 
 ### Languages and Tools:
