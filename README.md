@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm SErAphLi</h1>
-<h3 align="center">A research engineer from China</h3>
+<h3 align="center">PhD Candidate</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=seraphli&label=Profile%20views&color=0e75b6&style=flat" alt="seraphli" /> </p>
 
