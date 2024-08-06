@@ -52,7 +52,7 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_threshold: 0%
-          plugin_languages_ignored: html, css
+          plugin_languages_ignored: html, css, jupyter-notebook
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
@@ -64,7 +64,7 @@ jobs:
           plugin_steam_achievements_limit: 0
           plugin_steam_games_limit: 1
           plugin_steam_playtime_threshold: 2
-          plugin_steam_recent_games_limit: 3
+          plugin_steam_recent_games_limit: 2
           plugin_steam_sections: player, recently-played
           plugin_steam_user: '76561198021377655'
           plugin_steam_games_ignored: 1063730
