@@ -52,7 +52,7 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_threshold: 0%
-          plugin_languages_ignored: html, css, jupyter notebook
+          plugin_languages_ignored: jupyter notebook, html, css,
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
