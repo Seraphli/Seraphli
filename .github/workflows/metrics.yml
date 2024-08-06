@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: Seraphli/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -52,7 +52,7 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_threshold: 0%
-          plugin_languages_ignored: html, css, jupyter-notebook
+          plugin_languages_ignored: html, css, jupyter notebook
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
@@ -68,6 +68,7 @@ jobs:
           plugin_steam_sections: player, recently-played
           plugin_steam_user: '76561198021377655'
           plugin_steam_games_ignored: 1063730
+          plugin_steam_freegames: yes
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 365
