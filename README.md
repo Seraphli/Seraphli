@@ -8,13 +8,13 @@
 <a><h2>Stats</h2></a>
 <div>
     <a href="https://github-readme-stats-seraphli.vercel.app">
-        <img width="49%" alt="Stats" src="https://github-readme-stats-seraphli.vercel.app/api?&count_private=true&include_all_commits=true&username=seraphli&custom_title=GitHub+Stats&hide_border=true"/>
+        <img width="49%" alt="Stats" src="assets/stats.svg"/>
     </a>
     <a href="https://github-readme-streak-stats.herokuapp.com">
-        <img width="49%" alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=seraphli&hide_border=true"/>
+        <img width="49%" alt="Streak Stats" src="assets/streak.svg"/>
     </a>
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-        <img width="98%" alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=seraphli&column=6&row=1&no-frame=true"/>
+        <img width="98%" alt="Trophy" src="assets/trophy.svg"/>
     </a>
 </div>
 
