@@ -1,0 +1,34 @@
+name: Update assets
+
+on:
+  schedule:
+    - cron: 0 0 * * * # Every day at 00:00
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout with custom token for push to protected branch
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Download svg files
+        run: |
+          mkdir -p assets
+          curl 'https://github-readme-stats-seraphli.vercel.app/api?&count_private=true&include_all_commits=true&username=seraphli&custom_title=GitHub+Stats&hide_border=true' -o assets/stats.svg
+          curl 'https://github-readme-streak-stats.herokuapp.com/?user=seraphli&hide_border=true' -o assets/streak.svg
+          curl 'https://github-profile-trophy.vercel.app/?username=seraphli&column=6&row=1&no-frame=true' -o assets/trophy.svg
+
+      - name: Push svg files
+        run: |
+          git config user.name "SErAphLi"
+          git config user.email "seraphlivery@gmail.com"
+          git add assets/stats.svg
+          git add assets/streak.svg
+          git add assets/trophy.svg
+          git commit -m "[skip ci] Update assets"
+          git push origin
