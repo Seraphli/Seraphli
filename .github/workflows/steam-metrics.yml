@@ -1,0 +1,29 @@
+name: Steam Stats
+on:
+  schedule: [{cron: "0 0 * * 1"}]
+  workflow_dispatch:
+jobs:
+  steam-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Seraphli/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Seraphli
+          template: classic
+          base: ""
+          filename: steam-metrics.svg
+          config_display: large
+          config_timezone: Asia/Shanghai
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_achievements_limit: 10
+          plugin_steam_games_limit: 10
+          plugin_steam_playtime_threshold: 2
+          plugin_steam_recent_games_limit: 5
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_user: '76561198021377655'
+          plugin_steam_games_ignored: 1063730
+          plugin_steam_freegames: yes
